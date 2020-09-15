@@ -1,0 +1,35 @@
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #454498;
+}
+
+.img-list {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.image-wrap {
+  list-style: none;
+
+}
+
+img {
+  width: 400px;
+  height: 400px;
+  padding: 40px;
+}
+
+.next-btn {
+  display: block;
+  font-size: 24px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
