@@ -30,10 +30,13 @@ class App extends Component {
   }
 
   render() {
+      const minIndex = this.state.index;
+      const maxIndex = minIndex + 3;
+
     return (
         <div className="container">
             <h2 className="title">Images list</h2>
-            <ImageList data={this.state.images.slice(this.state.index, this.state.index + 3)}/>
+            <ImageList data={this.state.images.slice(minIndex, maxIndex)}/>
             <button onClick={this.toNext} className="next-btn">Next</button>
         </div>
     )
